@@ -24,7 +24,7 @@ export class HomePage {
     this.locationLabel = "California State Capital";
   }
 
-  getDirections(useWaze: boolean = false) {
+  getDirections() {
     this.directionsService.getDirections(this.latitude, this.longitude, this.locationLabel);
   }
 }
